@@ -1,22 +1,24 @@
 import "./App.css";
-import ReusableForm from "./components/ReusableForm/ReusableForm";
+import Grandpa from "./components/Grandpa/Grandpa";
+// import ReusableForm from "./components/ReusableForm/ReusableForm";
 // import HookForm from "./components/HookForm/HookForm";
 // import RefForm from "./components/RefForm/RefForm";
 // import StateFulForm from "./components/StateFulForm/StateFulForm";
 // import SimpleForm from "./components/SimpleForm/SimpleForm";
 
 function App() {
-  const handleSignUpSubmit = (data) => {
-    console.log("sign up data", data);
-  };
+  // const handleSignUpSubmit = (data) => {
+  //   console.log("sign up data", data);
+  // };
 
-  const handleUpdateProfile = (data) => {
-    console.log("update profile", data);
-  };
+  // const handleUpdateProfile = (data) => {
+  //   console.log("update profile", data);
+  // };
 
   return (
     <>
       <h1>Form Master</h1>
+      <Grandpa />
       {/* <SimpleForm /> */}
       {/* <StateFulForm /> */}
       {/* <RefForm /> */}
